@@ -32,7 +32,7 @@ TWOPLACES = Decimal(10) ** -2       # same as Decimal('0.01')
 class PlanMetal(Enum):
     # Enum of Health Care plans metal name
     Bronze = 'Bronze'
-    Silver = 'Silver'
+    Silver = "Silver"
     Gold = 'Gold'
     Platinum = 'Platinum'
     Catastrophic = 'Catastrophic'
@@ -96,7 +96,7 @@ def main():
     slcsp = pd.read_csv('slcsp.csv')
 
     # Filter the plans to only the SILVER plans
-    is_silver = plans['metal_level'] == "Silver"
+    is_silver = plans['metal_level'] == PlanMetal.Silver.value
     silver_plans = plans[is_silver]
     
     # DEBUG - print out the filtered silver plans
