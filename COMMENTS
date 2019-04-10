@@ -1,0 +1,24 @@
+#ADHOC SLCSP Homework Comments file
+
+The slcsp_python.py file is the python solution for the 
+SLCSP homework assignment from AdHoc.
+
+##1) Environment Requirements:
+Python 3.7.2
+PIP
+
+##2) PIP Python Packages Required:
+Package           Version
+----------------- -------git 
+pandas            0.24.1
+tabulate          0.8.3
+
+##3) PIP Package Install Commands:
+pip install pandas
+pip install tabulate
+
+##4) Run the program
+Execute Command for slcsp_python.py:
+python slcsp_python.py
+
+EoF
